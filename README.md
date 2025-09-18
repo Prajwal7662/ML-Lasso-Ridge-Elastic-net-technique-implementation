@@ -1,4 +1,4 @@
-``Lasso, Ridge, and Elastic Net Regression in Machine Learning
+Lasso, Ridge, and Elastic Net Regression in Machine Learning
 📌 Introduction
 
 In Machine Learning, regression techniques are widely used for predicting continuous values. However, when datasets contain multicollinearity or require feature selection, traditional Linear Regression may not perform well.
@@ -58,11 +58,6 @@ Useful when there are many correlated features.
 
 When to Use: When dataset has high dimensionality and we want both feature selection and regularization.
 
-⚖️ Comparison Table
-Technique	Penalty Type	Feature Selection	Best Use Case
-Ridge	L2 (squared)	❌ No	Many small but important features
-Lasso	L1 (absolute)	✅ Yes	Only few features are important
-Elastic Net	L1 + L2	✅ Yes (partial)	Correlated features, high dimensions
 
 📊 Key Points
 
